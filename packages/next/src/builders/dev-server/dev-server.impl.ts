@@ -9,7 +9,7 @@ import { JsonObject } from '@angular-devkit/core';
 import {
   PHASE_DEVELOPMENT_SERVER,
   PHASE_PRODUCTION_SERVER
-} from 'next-server/constants';
+} from 'next/dist/next-server/lib/constants';
 import startServer from 'next/dist/server/lib/start-server';
 import NextServer from 'next/dist/server/next-dev-server';
 import * as path from 'path';
